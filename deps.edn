@@ -2,7 +2,7 @@
  :deps {
         io.github.kotoba-lang/fs-absolute
         {:git/url "https://github.com/kotoba-lang/fs-absolute.git"
-         :git/sha "cc51c7f1c4cc069c912972b28ad34ba5d6ec810d"}}
+         :git/sha "c80c3e7ce0387b3475a8e21d0d0e68a16aae526c"}}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {io.github.cognitect-labs/test-runner
