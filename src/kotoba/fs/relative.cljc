@@ -5,7 +5,8 @@
   here is the DEFINITION, and this repo's deps.edn names exactly the
   definitions it reaches -- nothing else.
 "
-  (:require [kotoba.fs.absolute :refer [absolute?]])
+  (:require [kotoba.lang.text :as str]
+            [kotoba.fs.absolute :refer [absolute?]])
   #?(:clj  (:require [kotoba.lang.text :as str])
      :cljs (:require [kotoba.lang.text :as str])))
 
