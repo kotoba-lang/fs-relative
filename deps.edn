@@ -1,0 +1,10 @@
+{:paths ["src"]
+ :deps {
+        io.github.kotoba-lang/fs-absolute
+        {:git/url "https://github.com/kotoba-lang/fs-absolute.git"
+         :git/sha "cc51c7f1c4cc069c912972b28ad34ba5d6ec810d"}}
+ :aliases
+ {:test {:extra-paths ["test"]
+         :extra-deps {io.github.cognitect-labs/test-runner
+                      {:git/tag "v0.5.1" :git/sha "dfb30dd"}}
+         :main-opts ["-m" "cognitect.test-runner"]}}}
